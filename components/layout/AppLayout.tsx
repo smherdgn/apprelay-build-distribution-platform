@@ -5,7 +5,7 @@ import { useAuth } from '../../contexts/AuthContext';
 import { NAVIGATION_ITEMS } from '../../constants';
 import { HomeIcon, ListIcon, UploadIcon, SettingsIcon, LogOutIcon } from '../icons';
 import Button from '../ui/Button';
-
+ 
 const iconMap: { [key: string]: React.ElementType } = {
   Home: HomeIcon,
   List: ListIcon,

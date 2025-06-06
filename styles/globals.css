@@ -1,7 +1,8 @@
-/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles/globals.css */
 
 html, body {
   padding: 0;
