@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppRelay - Build Distribution</title>
+    <% /* Next.js will inject head content here via _document.tsx if used, or by default */ %>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.4.0",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "next/": "https://esm.sh/next@^15.3.3/",
+    "qrcode.react": "https://esm.sh/qrcode.react@^4.2.0",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@^2.50.0",
+    "next": "https://esm.sh/next@^15.3.3",
+    "formidable": "https://esm.sh/formidable@^3.5.4",
+    "fs": "https://esm.sh/fs@^0.0.1-security",
+    "path": "https://esm.sh/path@^0.12.7",
+    "uuid": "https://esm.sh/uuid@^11.1.0",
+    "@supabase/auth-helpers-nextjs": "https://esm.sh/@supabase/auth-helpers-nextjs@^0.10.0",
+    "better-sqlite3": "https://esm.sh/better-sqlite3@^11.10.0",
+    "vite": "https://esm.sh/vite@^6.3.5",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^4.5.1",
+    "react-native": "https://esm.sh/react-native@^0.79.3",
+    "react-test-renderer": "https://esm.sh/react-test-renderer@^19.1.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="__next"></div>
+    <% /* Next.js will inject scripts here */ %>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+NEXT_PUBLIC_SUPABASE_URL: The URL of your Supabase project.
+NEXT_PUBLIC_SUPABASE_ANON_KEY: The public anonymous key for your Supabase project.
+API_KEY: Your API key for the Google Gemini AI service. This is used server-side.
+APP_SETTINGS_SOURCE: (Server-side) Controls whether the application settings are read from Supabase DB (settings table) or from the local SQLite database (local.db via localDbService.ts). If you set this to local, ensure your local.db has the settings table and a row initialized (the system attempts to initialize defaults if missing).
+NEXT_PUBLIC_BASE_URL: (Client-side accessible) The public base URL of your deployed application. This is important for generating correct links in things like email notifications. For local development, http://localhost:3000 is typical.
+NEXT_PUBLIC_MOCK_LOCAL_USER_ID / _USERNAME / _EMAIL / _ROLE: (Client-side accessible) These define the properties of the mock user when useSupabase (from the app settings, not this env file) is false. This allows for easy local development and testing of different roles without needing a full Supabase auth setup.

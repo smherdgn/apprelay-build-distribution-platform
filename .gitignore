@@ -1,0 +1,49 @@
+# Next.js build output
+.next/
+out/
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env*
+.env.*.local
+
+# Local SQLite DB (if used)
+*.sqlite
+*.db
+
+# Tailwind generated file (if using twin.macro or custom extraction)
+tailwind.json
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# OS / IDE files
+.DS_Store
+*.swp
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Supabase (CLI) local artifacts
+.supabase/
+
+# Optional: macOS trash
+.Trashes
+

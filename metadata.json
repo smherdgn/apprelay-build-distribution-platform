@@ -1,0 +1,6 @@
+{
+  "name": "Copy of AppRelay - Build Distribution Platform",
+  "description": "A web application for managing and distributing mobile app builds, featuring version tracking, changelog analysis with Gemini AI, and feedback collection.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
